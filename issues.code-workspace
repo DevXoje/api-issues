@@ -1,0 +1,32 @@
+{
+	"folders": [
+		{
+			"path": "..\\front-issues"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"workbench.colorCustomizations": {
+			"activityBar.background": "#4F0067",
+			"titleBar.activeBackground": "#6F0091",
+			"titleBar.activeForeground": "#FEFBFF"
+		},
+		"sqltools.connections": [
+			{
+				"mysqlOptions": {
+					"authProtocol": "default"
+				},
+				"previewLimit": 50,
+				"server": "us-cdbr-east-06.cleardb.net",
+				"port": 3306,
+				"driver": "MySQL",
+				"database": "heroku_286a9b4dd696cd3",
+				"username": "b96f36617730f5",
+				"password": "0cd6737c",
+				"name": "Issues-DB"
+			}
+		]
+	}
+}
