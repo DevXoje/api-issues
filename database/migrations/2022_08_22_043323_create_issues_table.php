@@ -18,6 +18,7 @@ class CreateIssuesTable extends Migration
             $table->string('title');
             $table->text('body');
             $table->string('status');
+            $table->foreign('departament_id');
             $table->timestamps();
         });
     }

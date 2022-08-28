@@ -27,6 +27,8 @@ class StoreIssueRequest extends FormRequest
             'id' => 'required',
             'title' => 'required',
             'body' => 'required',
+            'status' => 'required',
+            'departament_id' => 'required',
         ];
     }
 }
