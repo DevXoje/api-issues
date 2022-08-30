@@ -22,7 +22,9 @@ Route::middleware('auth:sanctum')->get('/user', function (Request $request) {
 Route::get('/', function () {
     return 'Welcome to the API';
 });
-Route::prefix('issue')->group(function () {
-    //Route::resource(IssueController::class);
-});
-Route::resource('departaments', DepartamentController::class);
+
+Route::resources([
+    'departaments'=> DepartamentController::class,
+    'issues'=> IssueController::class,
+    'users'=> UserController::class,
+]);
